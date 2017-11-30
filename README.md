@@ -1,20 +1,21 @@
 # RRS4suadeTest  
-Rough Report Exporting Service for a test
+:Info: Rough Report Exporting Service for a test
 
 
-instructions:
+instructions::
 
-#run RRSserver on a separate terminal:
+run RRSserver on a separate terminal::
+    ``python RRSserver.py``
 
-python RRSserver.py
-
-#run RRSclient on a separate terminal:
-
-python RRSclient.py
+run RRSclient on a separate terminal::
+    ``python RRSclient.py``
 
 
 not had the time to write tests, but they'd entail changing input params to RRSclient.py:
 
-Record : this is the record number being requested
+* Record : this is the record number being requested
 
-FileType: xml or pdf
+* FileType: xml or pdf 
+
+Generate random paymentID(64bit, 16hex chars)::
+    ``pymonerotools.randpaymentidhex()``
