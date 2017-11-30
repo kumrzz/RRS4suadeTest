@@ -1,4 +1,5 @@
-# RRS4suadeTest  
+# RRS4suadeTest
+
 :Info: Rough Report Exporting Service for a test
 
 
@@ -21,3 +22,13 @@ not had the time to write tests, but they'd entail changing input params to RRSc
 * Record : this is the record number being requested
 
 * FileType: xml or pdf 
+
+Further work:
+
+* should be celery'd as doc generation can be a long process
+
+Footnotes:
+
+prerequisites(libraries): python-psycopg2, libxslt-dev, libxml2-dev, python-lxml, (pip)pdfkit, (pip)lxml, (pip)wkhtmltopdf
+
+I chose lxml.etree over xml.elementtree mainly as it can do indenting and is more feature-rich.
