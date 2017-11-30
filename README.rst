@@ -3,7 +3,9 @@
 
 
 instructions::
-
+install/download::
+``git clone https://github.com/kumrzz/RRS4suadeTest``
+``cd RRS4suadeTest``
 run RRSserver on a separate terminal::
     ``python RRSserver.py``
 
