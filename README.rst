@@ -3,9 +3,11 @@
 
 
 instructions::
+ 
 install/download::
-``git clone https://github.com/kumrzz/RRS4suadeTest``
-``cd RRS4suadeTest``
+    ``git clone https://github.com/kumrzz/RRS4suadeTest``
+    ``cd RRS4suadeTest``
+
 run RRSserver on a separate terminal::
     ``python RRSserver.py``
 
@@ -18,6 +20,3 @@ not had the time to write tests, but they'd entail changing input params to RRSc
 * Record : this is the record number being requested
 
 * FileType: xml or pdf 
-
-Generate random paymentID(64bit, 16hex chars)::
-    ``pymonerotools.randpaymentidhex()``
